@@ -16,12 +16,12 @@
     2.Настроить файл db.php (подключение к БД)
     
     3.Создать таблицы прописав:
-        yii migrate
+        php yii migrate
         
     4.Создать таблицы для RBAC:
         php yii migrate --migrationPath=@yii/rbac/migrations
         
     5. Добавить данные в таблицу RBAC: 
-        yii my-rbac/init
+        php yii my-rbac/init
         
     6. В файле config/params.php изменить adminEmail и supportEmail на свой.
