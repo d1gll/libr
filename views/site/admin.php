@@ -1,5 +1,4 @@
 
-
 <div class="jumbotron">
     <h1>Личноe</h1>
 
@@ -7,6 +6,12 @@
         <div class="alert alert-info blockquote" role="alert">
             <p class="mb-0">
                 Акция для тех, кто моложе 18 лет!
+            </p>
+        </div>
+    <?php elseif ($model->age >50) : ?>
+        <div class="alert alert-info blockquote" role="alert">
+            <p class="mb-0">
+                Акция для тех, кто старше 50 лет!
             </p>
         </div>
     <?php endif; ?>
